@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<part xml:id="pt-04" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Part 4: Vector Calculus</title>
+
+  <introduction>
+    <p> Text before the first chapter. </p>
+  </introduction>
+
+</part>

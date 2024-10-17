@@ -11,9 +11,12 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
-
+    <!-- Include parts -->
+    <xi:include href="./pt-00-review-of-prereq.ptx" />
+    <xi:include href="./pt-01-space-graphs-vec-fns.ptx" />
+    <xi:include href="./pt-02-derivatives.ptx" />
+    <xi:include href="./pt-03-integrals.ptx" />
+    <xi:include href="./pt-04-vector-calc.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

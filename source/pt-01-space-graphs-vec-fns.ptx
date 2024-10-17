@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<part xml:id="pt-01-space-graphs-vec-fns" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Part 1: Three-Dimensional Space, Graphs, and Vector Functions</title>
+
+  <introduction>
+    <p> Text before the first chapter. </p>
+  </introduction>
+
+  <xi:include href="./ch-01-three-dim-space.ptx" />
+
+</part>
