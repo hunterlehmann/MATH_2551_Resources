@@ -3,20 +3,41 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
-
-  <book xml:id="my-great-book">
+  
+  <book xml:id="multi-notes">
     <title>MATH 2551 Notes</title>
     <subtitle>Reference Notes for MATH 2551 at Georgia Tech</subtitle>
-
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include parts -->
-    <xi:include href="./pt-00-review-of-prereq.ptx" />
-    <xi:include href="./pt-01-space-graphs-vec-fns.ptx" />
-    <xi:include href="./pt-02-derivatives.ptx" />
-    <xi:include href="./pt-03-integrals.ptx" />
-    <xi:include href="./pt-04-vector-calc.ptx" />
+    <chapter xml:id="ch-01-space-graphs-vec-fns">
+      <title>Three Dimensional Space, Graphs, and Vector Functions</title>
+      <section xml:id="sec-1-1-three-dim-space">
+        <title>Three Dimensional Space</title>
+        <p>
+          Much of our study this semester will be of functions that can either be graphed in three dimensional space <m>\R^3</m> or are defined on points in <m>\R^3</m>, so we
+        begin by giving some basic vocabulary for <m>\R^3</m>.
+        </p>
+        <image source="R3diagram.png"></image>
+        <p>
+          Points in <m>\R^3</m> are specified as an ordered triple <m>(x,y,z)</m>.  We plot these points as shown in the diagram above, with each coordinate specifying how far to move 
+          from the origin in each of the three orthogonal directions defining this space. These are given by the <em>coordinate axes</em>: the <m>x</m>-axis is the set of all points with
+          <m>y,z</m> coordinates both equal to <m>0</m>, and similarly for the other two axes. An extremely important feature of this coordinate system is that it is <em>right-handed</em>,
+          which means that if you align your right thumb with the direction of the <m>z</m>-axis, then your fingers curl from the <m>x</m>-axis towards the <m>y</m>-axis.  We will have
+          opportunities throughout the course to choose one of two possible orientations for a mathematical object, and we will consistently make the choice that results in a right-handed system.
+        </p>
+        <p>
+          Besides the three coordinate axes, we will often work with the coordinate planes: <me>
+            x=0 (yz\text{-plane}), y=0 (xz\text{-plane}), z=0 (xy\text{-plane})
+          </me>. Points on the <m>xy</m>-plane, for example, all have the form <m>(x,y,0)</m> for some real numbers <m>x</m> and <m>y</m>.  These planes split <m>\R^3</m> into eight
+          <em>octants</em>.  The ordering of these octants varies by reference, but the first octant is consistently the octant where all three coordinates are non-negative: <me>
+            x\geq 0, y\geq 0, z \geq 0
+          </me>.
+          
+          
+        </p>
+      </section>
+    </chapter>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
